@@ -219,6 +219,7 @@ section {
 
 .Pricing{
   width: 100%;
+
 }
 
 .Pricing .hmmm {
@@ -229,7 +230,7 @@ section {
   border-top-right-radius: 20%;
   border-top-left-radius: 30%;
   /* width: 100rem; */
-  height: 40rem;
+  /* height: 40rem; */
   flex-direction: column;
   text-align: center;
 }
@@ -266,6 +267,37 @@ color: orange;
 cursor: pointer;
 } */
 
-
+ .resoures   #resources .resoures-image  p span{
+  font-style: bold;
   
+}
 
+
+.resoures   #resources .resoures-image  h3{
+  margin-top: 1rem;
+  margin-bottom: 8rem;
+}
+
+
+
+.resoures   #resources .resoures-image  p span:hover{
+  color: orange;
+  cursor: pointer;
+}
+
+.bottom  .bottom-top{ 
+  display: flex;
+  flex-direction: column; 
+  padding: 4rem;
+  gap: 1rem;
+  /* justify-content: space-between;  */
+}
+
+.bottom  .bottom-top p{
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom .bottom-top img{
+  width: 6rem;
+}
